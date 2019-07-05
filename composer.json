@@ -1,0 +1,26 @@
+{
+  "name": "yingouqlj/alipay-mini-program-lite",
+  "description": "支付宝小程序sdk,alipay miniprogram sdk.(前面堆一下关键字而已.这个包主要是针对支付宝小程序,轻巧无负担,无需安装各种依赖包.",
+  "keywords": [
+    "alipay",
+    "支付宝",
+    "小程序",
+    "miniprogram"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yingou",
+      "email": "yingouqlj@gmail.com"
+    }
+  ],
+  "require": {
+    "php":">=5.5.0"
+  },
+  "minimum-stability" : "dev",
+  "autoload": {
+    "psr-4": {
+      "Yingou\\AliMiniProgram\\": "src/"
+    }
+  }
+}
